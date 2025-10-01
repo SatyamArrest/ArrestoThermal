@@ -42,3 +42,12 @@ Before you begin, ensure you have met the following requirements:
 *   **[Any other specific software, accounts, or hardware needed]**
 
 
+<div align="center">
+<img alt="Dashboard" src="dashboard.png" width="30%">
+<img alt="Scanner Page" src="thermal.png" width="30%">
+</div>
+
+
+
+
+
