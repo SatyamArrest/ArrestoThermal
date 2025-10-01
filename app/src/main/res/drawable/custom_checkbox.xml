@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c)
+  ~  @website: http://arresto.in/
+  ~  @author: Arresto Solutions Pvt. Ltd.
+  ~  @license: http://arresto.in/
+  ~
+  ~  The below module/code/specifications belong to Arresto Solutions Pvt. Ltd. solely.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true"
+        android:drawable="@drawable/checked" />
+    <item android:state_pressed="true"
+        android:drawable="@drawable/checked" />
+    <item android:state_pressed="false"
+        android:drawable="@drawable/unchecked" />
+</selector>

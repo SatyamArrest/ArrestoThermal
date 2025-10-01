@@ -1,0 +1,66 @@
+<!--
+  ~  Copyright (c)
+  ~  @website: http://arresto.in/
+  ~  @author: Arresto Solutions Pvt. Ltd.
+  ~  @license: http://arresto.in/
+  ~
+  ~  The below module/code/specifications belong to Arresto Solutions Pvt. Ltd. solely.
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textsize">13sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="margin_1dp">1dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_6dp">6dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_13dp">13dp</dimen>
+    <dimen name="margin_14dp">14dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_22dp">22dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_35dp">35dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_45dp">45dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="margin_70dp">70dp</dimen>
+    <dimen name="margin_90dp">90dp</dimen>
+    <dimen name="margin_100dp">100dp</dimen>
+    <dimen name="margin_130dp">130dp</dimen>
+
+
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="size_55">55sp</dimen>
+    <dimen name="size_100">100sp</dimen>
+    <dimen name="size_105">105sp</dimen>
+    <dimen name="size_155">155sp</dimen>
+    <dimen name="size_200">200sp</dimen>
+
+
+    <dimen name="size_qr_box_view_corner">8dp</dimen>
+    <dimen name="size_qr_box_view_corner_offset">4dp</dimen>
+    <dimen name="length_qr_box_view_corner">30dp</dimen>
+    <dimen name="f_qr_box_view_desc">16sp</dimen>
+    <dimen name="f_qr_box_action_desc">12sp</dimen>
+    <dimen name="ml_qr_box_action">10dp</dimen>
+    <dimen name="width_qr_box_view">240dp</dimen>
+    <dimen name="height_qr_box_view">240dp</dimen>
+    <dimen name="height_qr_box_view_desc">35dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

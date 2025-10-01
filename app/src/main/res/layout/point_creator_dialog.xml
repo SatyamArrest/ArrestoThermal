@@ -1,0 +1,105 @@
+<!--
+  ~  Copyright (c)
+  ~  @website: http://arresto.in/
+  ~  @author: Arresto Solutions Pvt. Ltd.
+  ~  @license: http://arresto.in/
+  ~
+  ~  The below module/code/specifications belong to Arresto Solutions Pvt. Ltd. solely.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5dp"
+        android:background="@drawable/bg_btm_line"
+       >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_35dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Create Temprature Points"
+            android:textColor="@color/button_bg"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/cancel_btn"
+            android:layout_width="@dimen/margin_30dp"
+            android:layout_height="@dimen/margin_30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:padding="7dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="@color/button_bg" />
+
+    </RelativeLayout>
+
+    <app.com.azusol.arrestothermal.thirdPartyLibs.flir_thermal.DrawableDotImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="@dimen/margin_10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/spot_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:text="Spot size"
+        android:textColor="@color/button_bg"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/check_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="20.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="true"
+        android:button="@drawable/custom_checkbox"
+        android:paddingLeft="@dimen/margin_10dp"
+        android:text="All spots" />
+</RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:max="20"
+        android:progress="6" />
+    <!--    style="@style/Widget.AppCompat.SeekBar.Discrete"-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save_btn"
+        style="@style/material_button"
+        android:layout_width="136dp"
+        android:layout_height="@dimen/margin_35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_10dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/button_bg"
+        app:cornerRadius="@dimen/margin_10dp" />
+</LinearLayout>
